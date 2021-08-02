@@ -1,0 +1,76 @@
+#bgvid
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.flick
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+.head
+{
+    color: rgb(191, 240, 252);
+    text-shadow: 0 0 10px #03bcf4,
+                      0 0 20px #03bcf4,
+                      0 0 40px #03bcf4,
+                      0 0 80px #03bcf4,
+                      0 0 160px #03bcf4;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight : 900;
+    letter-spacing: 10px;
+    width: 100%;
+    text-align:center;
+    position: relative;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: heading 5s linear;
+}
+@keyframes heading
+{
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    {
+        color:rgb(20, 37, 54);
+        text-shadow:none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%
+    {
+        color: rgb(191, 240, 252);
+        text-shadow: 0 0 10px #03bcf4,
+                      0 0 20px #03bcf4,
+                      0 0 40px #03bcf4,
+                      0 0 80px #03bcf4,
+                      0 0 160px #03bcf4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
