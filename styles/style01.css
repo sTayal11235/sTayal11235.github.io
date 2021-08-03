@@ -16,8 +16,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
+    min-height:20vh;
 }
+
 .head
 {
     color: rgb(191, 240, 252);
@@ -39,12 +40,12 @@
 }
 @keyframes heading
 {
-    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    0%, 18%, 20%, 30%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
     {
         color:rgb(20, 37, 54);
         text-shadow:none;
     }
-    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%
+    18.1%, 20.1%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%
     {
         color: rgb(191, 240, 252);
         text-shadow: 0 0 10px #03bcf4,
@@ -55,22 +56,9 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.carousel .carousel-item
+{
+    min-height: 240px;
+    min-width: 426.25px;
+    margin-left: -15%;
+}
