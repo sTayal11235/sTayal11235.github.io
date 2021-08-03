@@ -60,5 +60,5 @@
 {
     min-height: 240px;
     min-width: 426.25px;
-    margin-left: -70%;
+    margin-left: -70% !important;
 }
