@@ -15,8 +15,8 @@ function Remove() {
 }
 
 function centerImgCss(){
-    document.getElementById("hovimg").style.height = "15vw";
-    document.getElementById("hovimg").style.width = "15vw";
+    document.getElementById("hovimg").style.height = "25vw";
+    document.getElementById("hovimg").style.width = "25vw";
     document.getElementById("hovimg").style.border = "1px solid";
     document.getElementById("hovimg").style.borderColor = "transparent";
     document.getElementById("hovimg").style.borderRadius = "50%";

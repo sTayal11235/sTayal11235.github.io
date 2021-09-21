@@ -30,52 +30,108 @@
 
 .cntr{
     position: absolute;
-    top:37vh;
-    left:42.5vw;
-    width:15vw;
-    height:15vw;
+    top:32vh;
+    left:37vw;
+    width:25vw;
+    height:25vw;
     border-width: 1px solid;
     border-color: transparent;
     border-radius: 50%;
+    z-index: 1;
+}
+
+.container{
+    position: absolute;
+    top:32vh;
+    left:37vw;
+    width:25vw;
+    height:25vw;
+    border-width: 1px solid;
+    border-color: transparent;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.gitline{
+    position: absolute;
+    top:0vh;
+    left:12.5vw;
+    width: 1px;
+    height: 12.5vw;
+    transform-origin: bottom;
+    animation: animategit 20s linear infinite;
 }
 
 .github{
     position: absolute;
-    top:26vh;
-    left:47vw;
+    top:-10.5vh;
+    left:-2.5vw;
     width:5vw;
     height:5vw;
     border-width: 1px solid;
     border-color: transparent;
     border-radius: 50%;
+}
+
+.instaline{
+    position: absolute;
+    top:0vh;
+    left:12.5vw;
+    width: 1px;
+    height: 12.5vw;
+    transform-origin: bottom;
+    transform: rotate(-144deg);
+    animation: animateinsta 20s linear infinite;
 }
 
 .instagram{
     position: absolute;
-    top:62vh;
-    left:40vw;
+    top:-10.5vh;
+    left:-2.5vw;
     width:5vw;
     height:5vw;
     border-width: 1px solid;
     border-color: transparent;
     border-radius: 50%;
+}
+
+.lnkline{
+    position: absolute;
+    top:0vh;
+    left:12.5vw;
+    width: 1px;
+    height: 12.5vw;
+    transform-origin: bottom;
+    transform: rotate(144deg);
+    animation: animatelnk 20s linear infinite;
 }
 
 .linkedin{
     position: absolute;
-    top:62vh;
-    left:55vw;
+    top:-10.5vh;
+    left:-2.5vw;
     width:5vw;
     height:5vw;
     border-width: 1px solid;
     border-color: transparent;
     border-radius: 50%;
+}
+
+.cfline{
+    position: absolute;
+    top:0vh;
+    left:12.5vw;
+    width: 1px;
+    height: 12.5vw;
+    transform-origin: bottom;
+    transform: rotate(-72deg);
+    animation: animatecf 20s linear infinite;
 }
 
 .codechef{
     position: absolute;
-    top:38vh;
-    left:38vw;
+    top:-10.5vh;
+    left:-2.5vw;
     width:5vw;
     height:5vw;
     border-width: 1px solid;
@@ -83,13 +139,69 @@
     border-radius: 50%;
 }
 
+.gmline{
+    position: absolute;
+    top:0vh;
+    left:12.5vw;
+    width: 1px;
+    height: 12.5vw;
+    transform-origin: bottom;
+    transform: rotate(72deg);
+    animation: animategm 20s linear infinite;
+}
+
 .gmail{
     position: absolute;
-    top:38vh;
-    left:57vw;
+    top:-10.5vh;
+    left:-2.5vw;
     width:5vw;
     height:5vw;
     border-width: 1px solid;
     border-color: transparent;
     border-radius: 50%;
+}
+
+@keyframes animategit{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animateinsta{
+    0%{
+        transform:rotate(-144deg);
+    }
+    100%{
+        transform: rotate(216deg);
+    }
+}
+
+@keyframes animatelnk{
+    0%{
+        transform:rotate(144deg);
+    }
+    100%{
+        transform: rotate(504deg);
+    }
+}
+
+@keyframes animatecf{
+    0%{
+        transform:rotate(-72deg);
+    }
+    100%{
+        transform: rotate(288deg);
+    }
+}
+
+@keyframes animategm{
+    0%{
+        transform:rotate(72deg);
+    }
+    100%{
+        transform: rotate(432deg);
+    }
 }
